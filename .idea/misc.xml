@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/drawable-v24/background_layout_search.xml" value="0.156" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/drawable-v24/ic_search.xml" value="0.156" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/drawable/background_edittext_input_message.xml" value="0.156" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/drawable/background_message_received.xml" value="0.1555" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/drawable/background_message_sent.xml" value="0.1555" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/activity_chat.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/activity_fill_information.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/activity_sign_in_or_up.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/fragment_messages.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/fragment_others.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/fragment_recent_messages.xml" value="0.3625" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/fragment_sign_up.xml" value="0.2359375" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_item_message_received.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_item_message_sent.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_item_messages.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_item_orther.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_item_recent_messages.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_message_received.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_wait.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/layout/layout_wait_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/Admin/OneDrive/Desktop/Android/Project/OnChat/app/src/main/res/menu/menu_bottom_navigation_main_activity.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

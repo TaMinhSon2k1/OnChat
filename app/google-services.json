@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "665384453328",
+    "project_id": "onchat-5d7bb",
+    "storage_bucket": "onchat-5d7bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665384453328:android:b43a25c2100a1bd6a28ad5",
+        "android_client_info": {
+          "package_name": "com.tms.onchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665384453328-ej7snagjmv994sefoshk0pjpsgjnnm3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tms.onchat",
+            "certificate_hash": "7c22fb09d801f5b929b9b7bbf1dde5f89d61b1be"
+          }
+        },
+        {
+          "client_id": "665384453328-5sjpc6e42dhjbdfvmijqv1k0c08lo4ni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOcS4Bf0esbGzvbYcnMpuK1sFZE9QfXzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665384453328-5sjpc6e42dhjbdfvmijqv1k0c08lo4ni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

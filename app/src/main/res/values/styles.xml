@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTabLayoutTextAppearanceLoginOrRegister" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">@dimen/_13ssp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="fontFamily">@font/ubuntu_bold</item>
+        <item name="android:textColor">@color/color_dark_primary</item>
+    </style>
+</resources>

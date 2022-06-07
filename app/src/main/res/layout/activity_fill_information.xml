@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary"
+    android:animateLayoutChanges="true"
+    tools:context=".activities.FillInformationActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_back"
+            android:textColor="@color/color_white"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/txtTitleInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/title_fill_information"
+            android:textAllCaps="true"
+            android:textColor="@color/color_white"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@id/txtBack"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvInputInformation"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_55sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            app:layout_constraintTop_toBottomOf="@id/txtTitleInformation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:padding="@dimen/_5sdp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:text="@string/title_first_name"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/color_dark_primary"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/ubuntu_regular"/>
+
+                <EditText
+                    android:id="@+id/edtInputFirstName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:hint="@string/hint_first_name"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:includeFontPadding="false"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/color_blank"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:text="@string/title_last_name"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/color_dark_primary"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/ubuntu_regular"/>
+
+                <EditText
+                    android:id="@+id/edtInputLastName"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:hint="@string/hint_last_name"
+                    android:imeOptions="actionDone"
+                    android:importantForAutofill="no"
+                    android:includeFontPadding="false"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/color_blank"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:text="@string/title_birthday"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/color_dark_primary"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/ubuntu_regular"/>
+
+                <EditText
+                    android:id="@+id/edtInputBirthday"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@null"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:hint="@string/hint_birthday"
+                    android:imeOptions="actionNext"
+                    android:importantForAutofill="no"
+                    android:includeFontPadding="false"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/color_blank"
+                    android:textColorHint="@color/color_hint"
+                    android:textSize="@dimen/_13ssp"
+                    android:focusable="false"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:text="@string/title_sex"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/color_dark_primary"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/ubuntu_regular"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="horizontal"
+                    android:layout_marginHorizontal="@dimen/_8sdp">
+
+                    <RadioButton
+                        android:id="@+id/rdMale"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/title_male"
+                        android:textSize="@dimen/_13ssp"
+                        android:textColor="@color/color_blank"
+                        android:fontFamily="@font/ubuntu_regular"
+                        android:buttonTint="@color/color_dark_primary"/>
+
+                    <RadioButton
+                        android:id="@+id/rdFemale"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="@string/title_female"
+                        android:textSize="@dimen/_13ssp"
+                        android:textColor="@color/color_blank"
+                        android:fontFamily="@font/ubuntu_regular"
+                        android:buttonTint="@color/color_dark_primary"/>
+
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/btnConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/color_dark_primary"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:text="@string/title_confirm"
+                    android:textSize="@dimen/_13ssp"
+                    android:textColor="@color/color_white"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginHorizontal="@dimen/_25sdp"
+                    android:layout_marginVertical="@dimen/_10sdp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardview_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="@dimen/_35sdp"
+            app:cardElevation="@dimen/_20sdp"
+            app:layout_constraintTop_toTopOf="@id/cvInputInformation"
+            app:layout_constraintBottom_toTopOf="@id/cvInputInformation"
+            app:layout_constraintStart_toStartOf="@id/cvInputInformation"
+            app:layout_constraintEnd_toEndOf="@id/cvInputInformation">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgImage"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:scaleType="fitXY"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:id="@+id/txtAddImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add image"
+                    android:textSize="@dimen/_11ssp"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:layout_gravity="center"/>
+
+            </FrameLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
